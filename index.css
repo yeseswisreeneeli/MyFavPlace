@@ -1,0 +1,238 @@
+@font-face {
+    font-family: "beautifulpeople" ;
+    src: url("BeautifulPeoplePersonalUse-dE0g.ttf") format('truetype');
+    
+}
+
+@font-face {
+    font-family: "Achemost";
+    src: url("Achemost-L3gln.otf");
+}
+
+@font-face {
+    font-family: "Glidane";
+    src: url("GildaneHyme-6YAz1.ttf");
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    margin: 0 0 0 0 ;
+    padding: 0 0 0 0;
+    background: url("Images/background_img.jpg");
+    background-size: cover;
+}
+
+#header {
+   margin: 0px 0px;
+   padding: 0px;
+   display: flex;
+   justify-content: space-between;
+   
+
+}
+
+#nav-buttons{
+    margin: 0px 0px;
+   padding: 10px;
+   background-color: rgba(0,0,0,0.6);
+   width: 30%;
+   display: flex;
+   justify-content: space-around;
+   color: white;
+   font-family: "Achemost";
+}
+
+#headline{
+    
+    color: whitesmoke; /* Set text color */
+    background-color: rgba(0,0,0, 0.6); /* Example of a slightly transparent background color */
+    padding-left: 15px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-right: 10px;/* Add padding for better readability */
+    text-shadow: 0 0 2px black;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0px 0px;
+    width: 70%;
+    font-family: "Achemost";
+    
+}
+
+#blog , #home, #contact-me {
+    font-size: 50px;
+    text-shadow: 0 0 2px black;
+    
+}
+
+#main_page{
+    width: 80%;
+    height: 600px;
+    margin: 100px auto;
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid whitesmoke;
+    border-radius: 30px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); 
+    
+}
+
+.slag{
+    background-color: black;
+    width: 400px;
+    height: 550px;
+    margin: 30px 10px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(200, 200, 200, 0.6);
+    border: 2px solid whitesmoke;
+}
+
+
+.circular-containers{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 3px solid whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+#ooty{
+    background-image: url("Images/ooty200.jpg");
+}
+
+#kashmir{
+    background-image: url("Images/kashmir200.jpg");
+}
+
+#Kerala{
+    background-image: url("Images/kerala200.jpg");
+}
+
+.place_name{
+    margin: 3px 0px;
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: "beautifulpeople";
+    text-decoration: underline;
+    text-shadow: 0 0 1px black;
+}
+
+p{
+    font-family: 'Edu SA Beginner', cursive;
+    color: black;
+    margin-right: 5px ;
+    margin-left: 5px;
+    margin-bottom: 1px;
+    font-size: 20px;
+    line-height: 0.5;
+    font-weight: 800;
+    text-shadow: 0 0 1px black;
+}
+
+.venture-btn {
+    padding: 5px 10px;
+    background-color: brown;
+    color: azure;
+    font-size: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+    font-family: 'Satisfy', cursive;
+}
+
+.venture-btn:hover{
+    font-size: 35px;
+    background-color: aliceblue;
+    color: brown;
+}
+
+#page2{
+    width: 100%;
+    height: 100vh;
+    margin:0 0 0 0;
+    padding: 0 0 0 0 ;
+    background: url("Images/page2.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#thank-you{
+    font-family: "Glidane";
+    font-size: 150px;
+    font-weight: 500;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    text-shadow: 0 0 2px black;
+    
+}
+
+#author-container{
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(90, 85, 85, 0.3);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px dotted whitesmoke;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1); 
+    margin-top: 50px;
+}
+
+#author-pic{
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    border-left: 5px solid aliceblue;
+    border-top: 5px solid aliceblue;
+    border-right: 5px solid aliceblue ;
+    border-bottom: 5px solid aliceblue;
+    background-image: url("Images/author_pic.jpg");
+    background-size: cover;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.);
+
+}
+
+#author-words{
+    color: aliceblue;
+    font-size: 30px;
+    margin: 10px 30px;
+    line-height: 1;
+}
+
+#note{
+    font-size: 20px; 
+    color: aliceblue;
+    margin: 40px 30px;
+    line-height: 0.9;
+}
+
+
+
+
+
+
+
+
+
